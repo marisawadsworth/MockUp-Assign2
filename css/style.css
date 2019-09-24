@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eee2ee;
+}
+
+/* Index Page */
+.grid-profile {
+    /* float: left; */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding-left: 30px;
+}
+
+.header-text {
+    float: right;
+    /* line-break: auto; */
+    margin-right: 30%;
+    padding-top: 5px;
+    /* display: inline; */
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+    background: #eee2ee;
+    /* border-style: solid; */
+  }
+  .grid-item { 
+    width: 456px;
+    height: 366px;
+    border-style: solid;
+  }
+
+footer {
+    background: #eee2ee;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+/* Login Page */
+.backgroundlogin{
+    background: #eee2ee;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Center the login image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Login image */
+  img.login-img{
+    width: 100%;
+    height: 350px;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+
+  /* Photo Page */
+  .grid-container-image{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 10px;
+
+    border: 3px solid #f1f1f1;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    background: white;
+    
+  }
+  .grid-item-image { 
+    width: 456px;
+    height: 366px;
+    /* border-style: solid; */
+  }
+
+  .grid-item-text{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding-top: 2px;
+    /* border: 3px solid black; */
+  }
